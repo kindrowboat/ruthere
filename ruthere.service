@@ -1,0 +1,14 @@
+[Unit]
+Description=ruthere
+After=ruthere.service
+
+[Service]
+Type=simple
+ExecStart=%h/bin/ruthere %h/.config/ruthere/config.yml
+Restart=always
+RestartSec=5
+StartLimitInterval=60s
+StartLimitBurst=3
+
+[Install]
+WantedBy=default.target

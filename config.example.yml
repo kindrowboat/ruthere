@@ -1,0 +1,9 @@
+from_name: kindrobot
+from_address: kindrobot@tilde.team
+to_name: Stef Dunlap
+to_address: stef@kindrobot.ca
+check_sites:
+- https://chez.kindrobot.ca
+- https://spring83.kindrobot.ca
+- https://piepi.art
+sleep_time: 5m
